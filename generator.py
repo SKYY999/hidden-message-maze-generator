@@ -192,10 +192,7 @@ def make_maze(path, width, height, message):
 
 
 def main():
-  message = '''\
-This string can be anything, and it will be encoded into a grid maze as the
-shortest path from BEGIN to END in the maze. Sometimes the generator fails, but
-80% of the time it works every time.'''
+  message = RUN -DIMMER
 
   assert sys.argv[1], 'Need cmdline argument to write file to'
   path_size = len(message) + 1
